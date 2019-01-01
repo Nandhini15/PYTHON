@@ -1,0 +1,13 @@
+#Tuple - a type of data structure, container where we can store nul pieces of info
+#diff btw list[] and tuple()
+cood = (4,5)
+#tuples are immutable; once created can't be modified then
+print(cood[0])
+# this is not poss.....cood[1] = 10
+# list
+# -mutable
+# tuples
+# -immutable
+#tuple used for data tat never gonna change
+co = [(4,5), (6,7)]
+print(co[1])
