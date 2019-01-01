@@ -1,0 +1,37 @@
+a = False
+b = True
+
+if a and b: #can mention and nd or for && and || operations
+    print("yes")
+elif a and not(b):
+    print("a and not b")
+elif not(a) and b:
+    print("not a and b")
+else:
+    print("no")
+    
+    
+#using numbers
+def max_num(n1, n2, n3):
+    if n1 >= n2 and n1 >= n3:
+        return n1
+    elif n2 >= n1 and n2 >= n3:
+        return n2
+    else:
+        return n3
+
+print(max_num("nan","din","sin"))
+#
+num1 = float(input("enter num1: "))
+op = input("enter operator: ")
+num2 = float(input("enter num2: "))
+if(op == "+"):
+    print(num1 + num2)
+elif(op == "-"):
+    print(num1 - num2)
+elif(op == "*"):
+    print(num1 * num2)
+elif(op == "/"):
+    print(num1 / num2)
+else:
+    print("Not a valid op")
