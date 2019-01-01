@@ -1,0 +1,11 @@
+#a keyword for fun - def
+def say_hi(name, age):
+    print("hello " +name+ ". Your age is " +age)
+def cube(num):
+    return num*num*num
+    # after return nothing ll get printed
+    # breaks out of the loop
+print("top")
+say_hi("Nandhu", "25")
+print(cube(4))
+print("bottom")
