@@ -1,0 +1,17 @@
+# Dictionary
+# word - key
+# defnition - value
+# Keys should be unique
+# To create a dictionary
+monthConversions = {
+    "Jan" : "January",
+    "Feb" : "February",
+    "Mar" : "March",
+    "Apr" : "April",
+    "May" : "May",
+}
+print(monthConversions["Mar"])
+print(monthConversions.get("Jan"))
+print(monthConversions.get("lub", "Not a valid key"))
+# If the key mentioned doesn't have a cores value, the give addtional arg
+print(monthConversions)
