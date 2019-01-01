@@ -1,0 +1,48 @@
+from math import *
+a = "nandhini"
+b = "vinoth"
+print("hello " +a+ " \n" +b)
+a = "mike"
+print("here it's " +a)
+c = 50.7987
+print(c)
+isNandhini = True
+print(isNandhini)
+if(a == "mike"):
+    print("yes")
+else:
+    print("no")
+
+print(a+b)
+print(a.upper().isupper())
+print(len(a))
+print(a[0])
+print(a.index("e"))
+print(a.index(("ke")))
+print(a.replace("mike","vinoth"))
+print(-2.98)
+print(67+98)
+print(3*(4+5))
+print(10%3)
+print(str(c)+ "hi")
+print(abs(-4))
+print(pow(2,5))
+print(max(4,6))
+print(min(4,6))
+print(round(c))
+#using import math - gives assess to math funcs
+
+n = -5
+print(floor(3.7))
+print(ceil(3.7))
+print(sqrt(9))
+name = input("enter ur name: ")
+age = input("enter ur age: ")
+print("Hello " +name + "! Your age is " +age)
+#BUilding a Basic Calculator
+num1 = input("Enter a num: ")
+num2 = input("Enter ano num: ")
+result = num1 + num2 #python is treating this as strings
+print(result) # so output is 2323, so
+res = int(num1) + int(num2)
+print(res)
