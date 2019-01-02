@@ -1,0 +1,7 @@
+# Python file that we can import into the current python file.
+import Module
+# import a func from ano existing python file
+print(Module.roll_dice(6))
+# List of python Modules in google - pre written code
+#lib - ext libraries - lot of external mod r available in lib
+#built in modules ll b directly accessible
