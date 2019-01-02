@@ -1,0 +1,7 @@
+# Class - to define ano datatype
+#to use student class
+from Student import Student
+
+student1 = Student("vino", "inse", 4.0, False)
+
+print(student1.name)
