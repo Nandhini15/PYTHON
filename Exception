@@ -1,0 +1,16 @@
+# Catching Errors - Try Except
+num = int(input("enter no: "))
+print (num)
+# here instead of int, if u type a text, it ll throw a error/exception
+# So, use a try, except block
+try:
+    value = 10/0
+    n = int(input("enter num: "))
+    print(n)
+#to accept specific types of error
+except ZeroDivisionError as err:
+    print(err) # can get error name
+except ValueError:
+    print("invalid input") # can get the message u give
+except: #common exception, too generic one
+    print("invalid input")
