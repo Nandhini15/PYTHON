@@ -1,0 +1,29 @@
+#Normal while loop
+i = 1
+while i <= 10 :
+    print(i)
+    i = i + 1
+print("done")
+
+#Guessing Game
+secret = "nandhini"
+guess = ""
+while(guess != secret):
+    guess = input("enter the secret word: ")
+print("you got the word")
+
+# secret word game - Guessing Game
+secret = "nandhini"
+guess = ""
+count = 0
+limit = 3
+while(guess != secret and count != limit):
+     guess = input("enter the secret word: ")
+     count = count +1
+
+if(guess == secret):
+    print("you got the word")
+else:
+    print("count exceeded")
+
+#
