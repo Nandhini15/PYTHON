@@ -1,0 +1,37 @@
+# Reading from external files lyk txt file, csv file, html etc
+# Read employees inside this. so first open employees
+employee_file = open("employees.txt", "r")
+# read - r
+# write - w
+# append - a
+# read and write - r+
+print(employee_file.readable())
+print(employee_file.readlines())
+# to read indiv line in file - read first line
+# To read next line, have to repeat it multiple times
+#To overcome this,
+ print(employee_file.readline())
+#To access specific line, use index
+for emp in employee_file.readlines():
+    print(emp)
+
+employee_file.close()
+
+#writing a new file/appending onto a file
+# employee_file = open("employees.txt", "a") # append to the file
+# employee_file.write("\ngee - Human Resources")
+# employee_file.close()
+#Instead of appending, overwrite the entire file
+
+employee_file = open("employees.txt", "w") # append to the file
+employee_file.write("\ngee - Human Resources")
+employee_file.close()
+#Instead of appending, write a new file
+employee_file = open("employees1.txt", "w") # append to the file
+employee_file.write("\ngee - Human Resources")
+employee_file.close()
+
+#To create a web page,
+employee_file = open("index.html", "w")
+employee_file.write("<p>This is html</p>")
+employee_file.close()
