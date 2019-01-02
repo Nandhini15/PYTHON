@@ -1,0 +1,76 @@
+for letter in "nandhini":
+    print(letter)
+
+friends = ["Jim", "Karren", "kevin"]
+for fri in friends:
+    print(fri)
+
+for index in range(10): # from 0 bef 10
+    print(index)
+
+for index in range(3, 10): # from 3 to 10
+    print(index)
+
+name = ["aa", "bb", "cc"]
+for n in range(len(name)):
+   print(name[n])
+
+for index in range(10):
+    if index == 0:
+        print("first")
+    else:
+        print("not")
+
+# Exponent Function
+print(2**3)
+
+def raise_to_power(base, pow):
+    res = 1
+    for index in range(pow):
+        res = res*base
+    return res
+
+print(raise_to_power(3, 2))
+
+#2D Lists and Nested Loops
+# like 2D array
+number = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+# inside number list, we have 4 elements
+# it has four rows and three columns
+print(number[1][1])
+# print(number[3][2])
+# list index out of range
+
+# Nested for loop
+for row in number:
+    print(row)
+
+# To access all individual elts of 2D list
+for row in number:
+    for col in row:
+        print(col)
+
+#Build a Translator
+def translate(phrase):
+    translation = ""
+    for letter in phrase:
+        if letter.lower() in "aeiou": # in python, we can check is something is there in something else vdout using == conditon check
+            if(letter.isupper()):
+              translation = translation + "G"
+            else:
+              translation = translation + "g"
+        else:
+            translation = translation + letter
+    return translation
+
+print(translate("NAndhini"))
+
+# single line comment
+'''
+Multiple line comments
+'''
