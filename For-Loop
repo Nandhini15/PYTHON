@@ -74,3 +74,12 @@ print(translate("NAndhini"))
 '''
 Multiple line comments
 '''
+c = "nandhini"
+print(c[5])
+print(c[3:6]) # to retrieve colln of spec index nos
+#to retieve substring
+
+#concatenate vd + symbol
+c = "nan"
+d = "vino"
+print(c+d)
